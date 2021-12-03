@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MediorceMonkeyBall.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{6331CCF3-6A45-49AD-ACC6-1704CBBE5B1C}</UniqueIdentifier>
+      <UniqueIdentifier>{E3887147-EC7F-4269-87B0-F020AC773CAA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MediorceMonkeyBall.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{A17AB15F-DAAC-4678-9718-E5A3D9FFEED1}</UniqueIdentifier>
+      <UniqueIdentifier>{8022CE4F-67B2-4BE1-90FF-CB55D7D731F5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\MediorceMonkeyBall">
-      <UniqueIdentifier>{8E6A9134-0E9B-4B0F-B166-6F545CDC04C3}</UniqueIdentifier>
+      <UniqueIdentifier>{2FF1CB28-F9F4-4B3C-BF6F-EE70F598B735}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MediorceMonkeyBall\MediorceMonkeyBall.Build.cs">
       <Filter>Source\MediorceMonkeyBall</Filter>
@@ -45,7 +45,7 @@
       <Filter>Source\MediorceMonkeyBall</Filter>
     </ClInclude>
     <Filter Include="Source\MediorceMonkeyBall\Private">
-      <UniqueIdentifier>{8A46AF20-0A90-4A3E-96F7-424C47A8BBAE}</UniqueIdentifier>
+      <UniqueIdentifier>{03F90C2C-7C9F-4410-B0B8-69814522F573}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MediorceMonkeyBall\Private\BASEPLAYER.cpp">
       <Filter>Source\MediorceMonkeyBall\Private</Filter>
@@ -54,7 +54,7 @@
       <Filter>Source\MediorceMonkeyBall\Private</Filter>
     </ClCompile>
     <Filter Include="Source\MediorceMonkeyBall\Public">
-      <UniqueIdentifier>{DE2B91CE-BF9A-491F-A7A5-30C3240A7259}</UniqueIdentifier>
+      <UniqueIdentifier>{6A314809-C2A5-4216-B6D0-B39F103B444D}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\MediorceMonkeyBall\Public\BASEPLAYER.h">
       <Filter>Source\MediorceMonkeyBall\Public</Filter>

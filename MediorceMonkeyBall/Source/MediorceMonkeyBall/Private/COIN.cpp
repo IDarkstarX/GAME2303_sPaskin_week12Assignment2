@@ -10,8 +10,12 @@ ACOIN::ACOIN()
 	PrimaryActorTick.bCanEverTick = true;
 
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>("Mesh");
+	TriggerCapsule = CreateDefaultSubobject<UCapsuleComponent>("Trigger Capsule");
 
 	RootComponent = Mesh;
+	TriggerCapsule->SetupAttachment(RootComponent);
+
+	TriggerCapsule->OnComponentBeginOverlap.AddDynamic(this, &ACOIN::OnOverlapBegin);
 }
 
 // Called when the game starts or when spawned
@@ -28,3 +32,7 @@ void ACOIN::Tick(float DeltaTime)
 
 }
 
+void ACOIN::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bfromSweep, const FHitResult& SweepResult)
+{
+
+}

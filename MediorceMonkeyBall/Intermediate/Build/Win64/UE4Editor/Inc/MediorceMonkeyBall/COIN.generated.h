@@ -8,15 +8,26 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FHitResult;
 #ifdef MEDIORCEMONKEYBALL_COIN_generated_h
 #error "COIN.generated.h already included, missing '#pragma once' in COIN.h"
 #endif
 #define MEDIORCEMONKEYBALL_COIN_generated_h
 
-#define MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_14_SPARSE_DATA
-#define MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_14_RPC_WRAPPERS
-#define MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_14_RPC_WRAPPERS_NO_PURE_DECLS
-#define MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_14_INCLASS_NO_PURE_DECLS \
+#define MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_16_SPARSE_DATA
+#define MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_16_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnOverlapBegin);
+
+
+#define MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnOverlapBegin);
+
+
+#define MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACOIN(); \
 	friend struct Z_Construct_UClass_ACOIN_Statics; \
@@ -25,7 +36,7 @@ public: \
 	DECLARE_SERIALIZER(ACOIN)
 
 
-#define MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_14_INCLASS \
+#define MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesACOIN(); \
 	friend struct Z_Construct_UClass_ACOIN_Statics; \
@@ -34,7 +45,7 @@ public: \
 	DECLARE_SERIALIZER(ACOIN)
 
 
-#define MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_14_STANDARD_CONSTRUCTORS \
+#define MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ACOIN(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACOIN) \
@@ -47,7 +58,7 @@ private: \
 public:
 
 
-#define MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_14_ENHANCED_CONSTRUCTORS \
+#define MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACOIN(ACOIN&&); \
@@ -58,28 +69,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACOIN)
 
 
-#define MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_14_PRIVATE_PROPERTY_OFFSET
-#define MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_11_PROLOG
-#define MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_14_GENERATED_BODY_LEGACY \
+#define MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_16_PRIVATE_PROPERTY_OFFSET
+#define MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_13_PROLOG
+#define MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_14_PRIVATE_PROPERTY_OFFSET \
-	MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_14_SPARSE_DATA \
-	MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_14_RPC_WRAPPERS \
-	MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_14_INCLASS \
-	MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_14_STANDARD_CONSTRUCTORS \
+	MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_16_PRIVATE_PROPERTY_OFFSET \
+	MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_16_SPARSE_DATA \
+	MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_16_RPC_WRAPPERS \
+	MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_16_INCLASS \
+	MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_14_GENERATED_BODY \
+#define MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_14_PRIVATE_PROPERTY_OFFSET \
-	MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_14_SPARSE_DATA \
-	MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_14_INCLASS_NO_PURE_DECLS \
-	MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_14_ENHANCED_CONSTRUCTORS \
+	MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_16_PRIVATE_PROPERTY_OFFSET \
+	MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_16_SPARSE_DATA \
+	MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_16_INCLASS_NO_PURE_DECLS \
+	MediorceMonkeyBall_Source_MediorceMonkeyBall_Public_COIN_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
