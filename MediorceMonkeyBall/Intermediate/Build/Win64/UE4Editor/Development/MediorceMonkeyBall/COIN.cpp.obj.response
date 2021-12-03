@@ -32,7 +32,7 @@
 /wd4244
 /wd4838
 /I .
-/I C:\Users\SAMSHEETS\Downloads\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Source\MediorceMonkeyBall\Private
+/I "C:\Users\Darkstar\Documents\Scool Files\AI Class\UNREAL STUFF\WEEK 12 ALT\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Source\MediorceMonkeyBall\Private"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -232,9 +232,9 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I C:\Users\SAMSHEETS\Downloads\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\UE4Editor\Inc\MediorceMonkeyBall
-/I C:\Users\SAMSHEETS\Downloads\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Source
-/I C:\Users\SAMSHEETS\Downloads\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Source\MediorceMonkeyBall\Public
+/I "C:\Users\Darkstar\Documents\Scool Files\AI Class\UNREAL STUFF\WEEK 12 ALT\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\UE4Editor\Inc\MediorceMonkeyBall"
+/I "C:\Users\Darkstar\Documents\Scool Files\AI Class\UNREAL STUFF\WEEK 12 ALT\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Source"
+/I "C:\Users\Darkstar\Documents\Scool Files\AI Class\UNREAL STUFF\WEEK 12 ALT\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Source\MediorceMonkeyBall\Public"
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -258,18 +258,18 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"C:\Users\SAMSHEETS\Downloads\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\MediorceMonkeyBallEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\SAMSHEETS\Downloads\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\MediorceMonkeyBallEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\SAMSHEETS\Downloads\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\MediorceMonkeyBallEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\SAMSHEETS\Downloads\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Source\MediorceMonkeyBall\Private\COIN.cpp"
-/FI"C:\Users\SAMSHEETS\Downloads\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\UE4Editor\Development\MediorceMonkeyBall\Definitions.MediorceMonkeyBall.h"
-/Fo"C:\Users\SAMSHEETS\Downloads\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\UE4Editor\Development\MediorceMonkeyBall\COIN.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
+/FI"C:\Users\Darkstar\Documents\Scool Files\AI Class\UNREAL STUFF\WEEK 12 ALT\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\MediorceMonkeyBallEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\Darkstar\Documents\Scool Files\AI Class\UNREAL STUFF\WEEK 12 ALT\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\MediorceMonkeyBallEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\Darkstar\Documents\Scool Files\AI Class\UNREAL STUFF\WEEK 12 ALT\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\MediorceMonkeyBallEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\Darkstar\Documents\Scool Files\AI Class\UNREAL STUFF\WEEK 12 ALT\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Source\MediorceMonkeyBall\Private\COIN.cpp"
+/FI"C:\Users\Darkstar\Documents\Scool Files\AI Class\UNREAL STUFF\WEEK 12 ALT\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\UE4Editor\Development\MediorceMonkeyBall\Definitions.MediorceMonkeyBall.h"
+/Fo"C:\Users\Darkstar\Documents\Scool Files\AI Class\UNREAL STUFF\WEEK 12 ALT\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\UE4Editor\Development\MediorceMonkeyBall\COIN.cpp.obj"
 /TP
 /GR-
 /W4

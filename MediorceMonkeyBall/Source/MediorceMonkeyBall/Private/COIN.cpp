@@ -2,6 +2,7 @@
 
 
 #include "COIN.h"
+#include "BASEPLAYER.h"
 
 // Sets default values
 ACOIN::ACOIN()
@@ -34,5 +35,10 @@ void ACOIN::Tick(float DeltaTime)
 
 void ACOIN::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bfromSweep, const FHitResult& SweepResult)
 {
+	if (Cast<ABASEPLAYER>(OtherActor) != nullptr) {
 
+		GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Emerald, TEXT("You hit a coin!"));
+		//Cast<ABASEPLAYER>(OtherActor)->scoreAdd(1);
+		Destroy();
+	}
 }

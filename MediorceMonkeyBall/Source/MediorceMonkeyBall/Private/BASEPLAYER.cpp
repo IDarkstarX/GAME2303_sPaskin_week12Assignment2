@@ -51,3 +51,8 @@ void ABASEPLAYER::RotY(float value) {
 
 	Mesh->AddRelativeRotation(newRotation, false, 0, ETeleportType::None);
 }
+
+void ABASEPLAYER::scoreAdd(int value) {
+
+	score = score + value;
+}

@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\SAMSHEETS\\Downloads\\GAME2303_sPaskin_week12Assignment2\\MediorceMonkeyBall\\Source\\MediorceMonkeyBall\\MediorceMonkeyBall.Build.cs",
-		"C:\\Users\\SAMSHEETS\\Downloads\\GAME2303_sPaskin_week12Assignment2\\MediorceMonkeyBall\\Source\\MediorceMonkeyBall.Target.cs",
-		"C:\\Users\\SAMSHEETS\\Downloads\\GAME2303_sPaskin_week12Assignment2\\MediorceMonkeyBall\\Source\\MediorceMonkeyBallEditor.Target.cs"
+		"C:\\Users\\Darkstar\\Documents\\Scool Files\\AI Class\\UNREAL STUFF\\WEEK 12 ALT\\GAME2303_sPaskin_week12Assignment2\\MediorceMonkeyBall\\Source\\MediorceMonkeyBall\\MediorceMonkeyBall.Build.cs",
+		"C:\\Users\\Darkstar\\Documents\\Scool Files\\AI Class\\UNREAL STUFF\\WEEK 12 ALT\\GAME2303_sPaskin_week12Assignment2\\MediorceMonkeyBall\\Source\\MediorceMonkeyBall.Target.cs",
+		"C:\\Users\\Darkstar\\Documents\\Scool Files\\AI Class\\UNREAL STUFF\\WEEK 12 ALT\\GAME2303_sPaskin_week12Assignment2\\MediorceMonkeyBall\\Source\\MediorceMonkeyBallEditor.Target.cs"
 	],
-	"EngineVersion": "4.27.1"
+	"EngineVersion": "4.27.0"
 }

@@ -34,6 +34,10 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float rotSpeed;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int score;
+
 	void RotX(float value);
 	void RotY(float value);
+	void scoreAdd(int value);
 };
