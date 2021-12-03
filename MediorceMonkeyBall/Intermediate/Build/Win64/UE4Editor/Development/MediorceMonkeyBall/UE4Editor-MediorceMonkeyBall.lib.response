@@ -1,0 +1,19 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-MediorceMonkeyBall.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Darkstar\Documents\Scool Files\AI Class\UNREAL STUFF\WEEK 12 ALT\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\MediorceMonkeyBallEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Darkstar\Documents\Scool Files\AI Class\UNREAL STUFF\WEEK 12 ALT\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\UE4Editor\Development\MediorceMonkeyBall\BASEPLAYER.cpp.obj"
+"C:\Users\Darkstar\Documents\Scool Files\AI Class\UNREAL STUFF\WEEK 12 ALT\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\UE4Editor\Development\MediorceMonkeyBall\COIN.cpp.obj"
+"C:\Users\Darkstar\Documents\Scool Files\AI Class\UNREAL STUFF\WEEK 12 ALT\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\UE4Editor\Development\MediorceMonkeyBall\MediorceMonkeyBall.cpp.obj"
+"C:\Users\Darkstar\Documents\Scool Files\AI Class\UNREAL STUFF\WEEK 12 ALT\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\UE4Editor\Development\MediorceMonkeyBall\MediorceMonkeyBallGameModeBase.cpp.obj"
+"C:\Users\Darkstar\Documents\Scool Files\AI Class\UNREAL STUFF\WEEK 12 ALT\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\UE4Editor\Development\MediorceMonkeyBall\BASEPLAYER.gen.cpp.obj"
+"C:\Users\Darkstar\Documents\Scool Files\AI Class\UNREAL STUFF\WEEK 12 ALT\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\UE4Editor\Development\MediorceMonkeyBall\COIN.gen.cpp.obj"
+"C:\Users\Darkstar\Documents\Scool Files\AI Class\UNREAL STUFF\WEEK 12 ALT\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\UE4Editor\Development\MediorceMonkeyBall\MediorceMonkeyBall.init.gen.cpp.obj"
+"C:\Users\Darkstar\Documents\Scool Files\AI Class\UNREAL STUFF\WEEK 12 ALT\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\UE4Editor\Development\MediorceMonkeyBall\MediorceMonkeyBallGameModeBase.gen.cpp.obj"
+"C:\Users\Darkstar\Documents\Scool Files\AI Class\UNREAL STUFF\WEEK 12 ALT\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\UE4Editor\Development\MediorceMonkeyBall\Default.rc2.res"
+/OUT:"C:\Users\Darkstar\Documents\Scool Files\AI Class\UNREAL STUFF\WEEK 12 ALT\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\UE4Editor\Development\MediorceMonkeyBall\UE4Editor-MediorceMonkeyBall.lib"

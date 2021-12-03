@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MediorceMonkeyBall",
+			"Path": "C:\\Users\\Darkstar\\Documents\\Scool Files\\AI Class\\UNREAL STUFF\\WEEK 12 ALT\\GAME2303_sPaskin_week12Assignment2\\MediorceMonkeyBall\\Source\\MediorceMonkeyBall.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MediorceMonkeyBallEditor",
+			"Path": "C:\\Users\\Darkstar\\Documents\\Scool Files\\AI Class\\UNREAL STUFF\\WEEK 12 ALT\\GAME2303_sPaskin_week12Assignment2\\MediorceMonkeyBall\\Source\\MediorceMonkeyBallEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
