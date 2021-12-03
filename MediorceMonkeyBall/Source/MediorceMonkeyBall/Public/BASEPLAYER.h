@@ -17,6 +17,9 @@ public:
 	// Sets default values for this pawn's properties
 	ABASEPLAYER();
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int score;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -34,8 +37,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float rotSpeed;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		int score;
+	
 
 	void RotX(float value);
 	void RotY(float value);
