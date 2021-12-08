@@ -3,6 +3,7 @@
 
 #include "COIN.h"
 #include "BASEPLAYER.h"
+#include "EngineUtils.h"
 
 // Sets default values
 ACOIN::ACOIN()
@@ -23,6 +24,17 @@ ACOIN::ACOIN()
 void ACOIN::BeginPlay()
 {
 	Super::BeginPlay();
+
+	//EngineUtils.h
+	/*for (TActorIterator<AActor> ActorItr(GetWorld()); ActorItr; ++ActorItr)
+	{
+		//ClientMessage(ActorItr->GetName());
+		//ClientMessage(ActorItr->GetActorLocation().ToString());
+		if (ActorItr->GetName() == "")
+		{
+			player = ActorItr->GetComponentByClass<ABaseA
+		}
+	}*/
 	
 }
 
@@ -38,6 +50,8 @@ void ACOIN::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 	if (OtherActor->ActorHasTag(TEXT("ball"))) {
 
 		GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Emerald, TEXT("You hit a coin!"));
+
+		player->scoreAdd(1);
 		
 		Destroy();
 	}

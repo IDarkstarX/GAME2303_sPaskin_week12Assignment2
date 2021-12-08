@@ -1,11 +1,11 @@
-C:\Users\Darkstar\Documents\Scool Files\AI Class\UNREAL STUFF\WEEK 12 ALT\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\UE4Editor\Development\MediorceMonkeyBall\Definitions.MediorceMonkeyBall.h
-D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\Darkstar\Documents\Scool Files\AI Class\UNREAL STUFF\WEEK 12 ALT\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Source\MediorceMonkeyBall/Public/COIN.h
-D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
-D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
-D:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
-D:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
-C:\Users\Darkstar\Documents\Scool Files\AI Class\UNREAL STUFF\WEEK 12 ALT\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Source\MediorceMonkeyBall\Public\BASEPLAYER.h
-C:\Users\Darkstar\Documents\Scool Files\AI Class\UNREAL STUFF\WEEK 12 ALT\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\UE4Editor\Inc\MediorceMonkeyBall\BASEPLAYER.generated.h
-C:\Users\Darkstar\Documents\Scool Files\AI Class\UNREAL STUFF\WEEK 12 ALT\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\UE4Editor\Inc\MediorceMonkeyBall\COIN.generated.h
+C:\Users\SAMSHEETS\Downloads\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\UE4Editor\Development\MediorceMonkeyBall\Definitions.MediorceMonkeyBall.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\SAMSHEETS\Downloads\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Source\MediorceMonkeyBall/Public/COIN.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
+C:\Users\SAMSHEETS\Downloads\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Source\MediorceMonkeyBall\Public\BASEPLAYER.h
+C:\Users\SAMSHEETS\Downloads\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\UE4Editor\Inc\MediorceMonkeyBall\BASEPLAYER.generated.h
+C:\Users\SAMSHEETS\Downloads\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\UE4Editor\Inc\MediorceMonkeyBall\COIN.generated.h

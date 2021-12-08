@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeCOIN() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCapsuleComponent_NoRegister();
+	MEDIORCEMONKEYBALL_API UClass* Z_Construct_UClass_ABASEPLAYER_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(ACOIN::execOnOverlapBegin)
 	{
@@ -144,6 +145,10 @@ void EmptyLinkFunctionForGeneratedCodeCOIN() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TriggerCapsule_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TriggerCapsule;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_player_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_player;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -177,9 +182,17 @@ void EmptyLinkFunctionForGeneratedCodeCOIN() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACOIN_Statics::NewProp_TriggerCapsule = { "TriggerCapsule", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACOIN, TriggerCapsule), Z_Construct_UClass_UCapsuleComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACOIN_Statics::NewProp_TriggerCapsule_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACOIN_Statics::NewProp_TriggerCapsule_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACOIN_Statics::NewProp_player_MetaData[] = {
+		{ "Category", "COIN" },
+		{ "ModuleRelativePath", "Public/COIN.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACOIN_Statics::NewProp_player = { "player", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACOIN, player), Z_Construct_UClass_ABASEPLAYER_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACOIN_Statics::NewProp_player_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACOIN_Statics::NewProp_player_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACOIN_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACOIN_Statics::NewProp_Mesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACOIN_Statics::NewProp_TriggerCapsule,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACOIN_Statics::NewProp_player,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACOIN_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ACOIN>::IsAbstract,
@@ -208,7 +221,7 @@ void EmptyLinkFunctionForGeneratedCodeCOIN() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACOIN, 39230965);
+	IMPLEMENT_CLASS(ACOIN, 17941929);
 	template<> MEDIORCEMONKEYBALL_API UClass* StaticClass<ACOIN>()
 	{
 		return ACOIN::StaticClass();

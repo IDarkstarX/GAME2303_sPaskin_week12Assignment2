@@ -1,0 +1,18 @@
+C:\Users\SAMSHEETS\Downloads\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\UE4Editor\Development\MediorceMonkeyBall\Definitions.MediorceMonkeyBall.h
+C:\Users\SAMSHEETS\Downloads\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Source\MediorceMonkeyBall\Public\DEATHVOLUME.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
+C:\Users\SAMSHEETS\Downloads\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Source\MediorceMonkeyBall\Public\BASEPLAYER.h
+C:\Users\SAMSHEETS\Downloads\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\UE4Editor\Inc\MediorceMonkeyBall\BASEPLAYER.generated.h
+C:\Users\SAMSHEETS\Downloads\GAME2303_sPaskin_week12Assignment2\MediorceMonkeyBall\Intermediate\Build\Win64\UE4Editor\Inc\MediorceMonkeyBall\DEATHVOLUME.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h

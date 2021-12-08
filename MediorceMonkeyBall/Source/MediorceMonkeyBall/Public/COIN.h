@@ -33,6 +33,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		UCapsuleComponent* TriggerCapsule;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		ABASEPLAYER* player;
+
 	UFUNCTION()
 		void OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bfromSweep, const FHitResult& SweepResult);
 };

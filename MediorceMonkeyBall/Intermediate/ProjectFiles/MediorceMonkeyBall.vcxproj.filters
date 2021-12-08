@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MediorceMonkeyBall.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E3887147-EC7F-4269-87B0-F020AC773CAA}</UniqueIdentifier>
+      <UniqueIdentifier>{DB538488-4958-47FA-9E04-2AB8597A31C9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MediorceMonkeyBall.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,9 @@
     <None Include="..\..\Source\MediorceMonkeyBallEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\UpgradeLog.htm" />
     <Filter Include="Config">
-      <UniqueIdentifier>{8022CE4F-67B2-4BE1-90FF-CB55D7D731F5}</UniqueIdentifier>
+      <UniqueIdentifier>{03164C49-4A4B-4A62-AC04-6FE06DB84721}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +28,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\MediorceMonkeyBall">
-      <UniqueIdentifier>{2FF1CB28-F9F4-4B3C-BF6F-EE70F598B735}</UniqueIdentifier>
+      <UniqueIdentifier>{89ABCDEA-1B09-4489-8A47-5C9354E996A9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MediorceMonkeyBall\MediorceMonkeyBall.Build.cs">
       <Filter>Source\MediorceMonkeyBall</Filter>
@@ -45,7 +46,7 @@
       <Filter>Source\MediorceMonkeyBall</Filter>
     </ClInclude>
     <Filter Include="Source\MediorceMonkeyBall\Private">
-      <UniqueIdentifier>{03F90C2C-7C9F-4410-B0B8-69814522F573}</UniqueIdentifier>
+      <UniqueIdentifier>{27651E24-24E4-4B13-B48D-59BC1D049031}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MediorceMonkeyBall\Private\BASEPLAYER.cpp">
       <Filter>Source\MediorceMonkeyBall\Private</Filter>
@@ -53,13 +54,25 @@
     <ClCompile Include="..\..\Source\MediorceMonkeyBall\Private\COIN.cpp">
       <Filter>Source\MediorceMonkeyBall\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\MediorceMonkeyBall\Private\DEATHVOLUME.cpp">
+      <Filter>Source\MediorceMonkeyBall\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MediorceMonkeyBall\Private\GOAL.cpp">
+      <Filter>Source\MediorceMonkeyBall\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\MediorceMonkeyBall\Public">
-      <UniqueIdentifier>{6A314809-C2A5-4216-B6D0-B39F103B444D}</UniqueIdentifier>
+      <UniqueIdentifier>{4DB35587-2F60-451E-9E01-F97AB9FF86D2}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\MediorceMonkeyBall\Public\BASEPLAYER.h">
       <Filter>Source\MediorceMonkeyBall\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\MediorceMonkeyBall\Public\COIN.h">
+      <Filter>Source\MediorceMonkeyBall\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MediorceMonkeyBall\Public\DEATHVOLUME.h">
+      <Filter>Source\MediorceMonkeyBall\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MediorceMonkeyBall\Public\GOAL.h">
       <Filter>Source\MediorceMonkeyBall\Public</Filter>
     </ClInclude>
   </ItemGroup>
